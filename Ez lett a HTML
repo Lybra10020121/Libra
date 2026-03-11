@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólió</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Angelina Art</h1>
+    <p>Abstract Art • Photography • Design</p>
+</header>
+
+<section class="about">
+    <h2>Rólam</h2>
+    <p>
+        Festő és vizuális alkotó vagyok. Az oldalon absztrakt munkáimat és projektjeimet mutatom be.
+    </p>
+</section>
+
+<section class="portfolio">
+    <h2>Portfólió</h2>
+    <div class="gallery">
+
+        <div class="art">Kép 1</div>
+        <div class="art">Kép 2</div>
+        <div class="art">Kép 3</div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Angelina</p>
+</footer>
+
+</body>
+</html>
