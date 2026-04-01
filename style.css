@@ -1,22 +1,33 @@
+/* ALAP */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #f4f4f4;
+    background: linear-gradient(135deg, #f5eee6, #e6d5c3);
+    color: #3e2f25;
     text-align: center;
 }
 
-/* FEJLÉC */
-header {
-    background: black;
-    color: white;
-    padding: 50px 20px;
-}
-/* HEADER POZÍCIONÁLÁS */
+/* HEADER */
 header {
     position: relative;
-    background: black;
-    color: white;
     padding: 60px 20px;
+}
+
+/* ÜVEGHATÁS */
+header, section {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 40px;
+}
+
+/* CÍM */
+h1 {
+    margin: 0;
+    font-size: 42px;
+    letter-spacing: 2px;
 }
 
 /* MENÜ */
@@ -26,104 +37,62 @@ header {
     right: 30px;
 }
 
-/* MENÜ LINKEK */
 .menu a {
     margin-left: 20px;
     text-decoration: none;
-    color: white;
+    color: #3e2f25;
     font-size: 14px;
     letter-spacing: 1px;
     transition: 0.3s;
 }
 
-/* HOVER */
 .menu a:hover {
     opacity: 0.6;
-}
-
-h1 {
-    margin: 0;
-    font-size: 42px;
-    letter-spacing: 2px;
-}
-
-/* SZEKCIÓK */
-section {
-    padding: 50px 20px;
-}
-
-/* RÓLAM */
-.about {
-    max-width: 700px;
-    margin: auto;
-}
-
-/* PORTFÓLIÓ */
-.portfolio {
-    background: white;
 }
 
 /* GALÉRIA */
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 25px;
-    padding: 20px;
+    gap: 20px;
 }
 
 /* KÉPEK */
 .gallery img {
     width: 100%;
-    height: 320px;
+    height: 300px;
     object-fit: cover;
-    border-radius:0px;
-    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
-    transition: transform 0.3s ease, filter 0.3s ease;
+    border-radius: 12px;
+    transition: 0.4s;
 }
 
-/* HOVER EFFEKT */
+/* HOVER */
 .gallery img:hover {
-    transform: scale(1.05);
-    filter: brightness(1.1);
+    transform: scale(1.04);
 }
 
-/* FOOTER */
-footer {
-    background: black;
-    color: white;
-    padding: 25px;
-    margin-top: 40px;
-}
-nav {
-    margin-top: 20px;
-}
-
-nav a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-nav a:hover {
-    opacity: 0.7;
-}
-
+/* GOMB */
 .btn {
     display: inline-block;
     margin-top: 30px;
     padding: 12px 30px;
-    background: white;
-    color: black;
+    background: rgba(255, 255, 255, 0.4);
+    color: #3e2f25;
     text-decoration: none;
-    font-weight: bold;
     border-radius: 30px;
+    backdrop-filter: blur(10px);
     transition: 0.3s;
 }
 
 .btn:hover {
-    background: black;
-    color: white;
-    border: 1px solid white;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+/* FOOTER */
+footer {
+    margin: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
 }
