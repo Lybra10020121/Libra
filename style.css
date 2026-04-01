@@ -11,6 +11,35 @@ header {
     color: white;
     padding: 50px 20px;
 }
+/* HEADER POZÍCIONÁLÁS */
+header {
+    position: relative;
+    background: black;
+    color: white;
+    padding: 60px 20px;
+}
+
+/* MENÜ */
+.menu {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+/* MENÜ LINKEK */
+.menu a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+/* HOVER */
+.menu a:hover {
+    opacity: 0.6;
+}
 
 h1 {
     margin: 0;
