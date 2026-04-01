@@ -9,8 +9,38 @@ body {
 
 /* HEADER */
 header {
+    /* HEADER FRISSÍTÉSE */
+header {
+    display: flex;
+    flex-direction: column; /* Egymás alá kerüljenek alapból */
+    align-items: flex-start; /* Balra igazítjuk a tartalmat */
+    padding: 40px 20px;
     position: relative;
-    padding: 60px 20px;
+}
+
+/* NÉV (LinAbstractArt) BALRA TOLÁSA */
+h1 {
+    margin: 0;
+    font-size: 32px; /* Kicsit kisebb, hogy elférjen mobilon */
+    text-align: left;
+    width: 100%;
+}
+
+/* MENÜ ÚJRAGONDOLÁSA */
+.menu {
+    position: static; /* Mobilon ne a sarokban lebegjen */
+    width: 100%;
+    text-align: left; /* Vagy right, ha jobbra szeretnéd */
+    margin-bottom: 20px; /* Hogy legyen hely a név felett */
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(107, 90, 79, 0.1); /* Egy vékony elválasztó vonal */
+}
+
+.menu a {
+    margin-left: 0;
+    margin-right: 20px; /* Inkább jobb oldali margó, ha balra zárt */
+}
+
 }
 
 /* ÜVEGHATÁS BLOKKOK */
