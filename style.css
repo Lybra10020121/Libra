@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #eee6df, #d9cec5);
-    color: #4a3f36;
+    color: #7a6e65;
     text-align: center;
 }
 
@@ -33,7 +33,7 @@ h1 {
     margin: 0;
     font-size: 42px;
     letter-spacing: 2px;
-    color: #6b5a4f;
+    color: #8b7d73;
     text-align: left;
 }
 
@@ -47,14 +47,14 @@ h1 {
 .menu a {
     margin-left: 20px;
     text-decoration: none;
-    color: #6b5a4f;
+    color: #96897f;
     font-size: 14px;
     letter-spacing: 1px;
     transition: 0.3s;
 }
 
 .menu a:hover {
-    color: #8a776b;
+    color: #b0a49c;
 }
 
 /* GALÉRIA ÚJRA MŰKÖDIK */
@@ -83,7 +83,7 @@ h1 {
     margin-top: 30px;
     padding: 12px 30px;
     background: rgba(107, 90, 79, 0.15);
-    color: #6b5a4f;
+    color: #8b7d73;
     text-decoration: none;
     border-radius: 0;
     backdrop-filter: blur(10px);
@@ -91,7 +91,7 @@ h1 {
 }
 
 .btn:hover {
-    background: rgba(107, 90, 79, 0.3);
+    background: rgba(107, 90, 79, 0.2);
 }
 
 /* MOBILOS NÉZET - Itt rakjuk helyre az összecsúszást */
@@ -107,7 +107,7 @@ h1 {
         text-align: left;
         margin-bottom: 20px;
         padding-bottom: 10px;
-        border-bottom: 1px solid rgba(107, 90, 79, 0.1);
+        border-bottom: 1px solid rgba(139, 125, 115, 0.15);
     }
 
     .menu a {
