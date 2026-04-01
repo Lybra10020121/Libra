@@ -9,14 +9,6 @@ body {
 
 /* HEADER */
 header {
-    /* HEADER FRISSÍTÉSE */
-header {
-    display: flex;
-    flex-direction: column; /* Egymás alá kerüljenek alapból */
-    align-items: flex-start; /* Balra igazítjuk a tartalmat */
-    padding: 40px 20px;
-    position: relative;
-
     /* MENÜ ÚJRAGONDOLÁSA */
 .menu {
     position: static; /* Mobilon ne a sarokban lebegjen */
@@ -32,6 +24,13 @@ header {
     margin-right: 20px; /* Inkább jobb oldali margó, ha balra zárt */
 }
 
+header {
+    display: flex;
+    flex-direction: column; /* Egymás alá kerüljenek alapból */
+    align-items: flex-start; /* Balra igazítjuk a tartalmat */
+    padding: 40px 20px;
+    position: relative;
+    
 /* NÉV (LinAbstractArt) BALRA TOLÁSA */
 h1 {
     margin: 0;
